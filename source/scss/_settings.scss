@@ -1,0 +1,55 @@
+%link-reset {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	width: 100%;
+	height: 100%;
+	@include box-sizing(border-box);
+}
+
+%list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/**
+/* ====================
+/* Variables de colores
+/* ====================
+*/
+$elColor1: #000; /*Turquesa intenso*/ /*Menú*/
+$elColor2: #636450; /*gris*/             /*Títulos y font*/
+$elColor3: #000; /*Amarillo*/         /*Audio*/
+$elColor4: #000; /*Magenta intenso*/
+$elColor4Claro: #000; /*Amarillo*/    /*Twitter*/
+$elColor5: #18A69B; /*Turquesa obscuro*/
+
+/* Magenta #ff4abc */
+/* Turquesa #4afff2 */
+/* Amarillo #f8d82f */
+
+/* Magenta Intenso #a61871 */ 
+/* Turquesa Intenso #18a69b */
+/* Amarillo Intenso #a68a18 */
+
+/* Magenta Oscuro #bf5999 */
+/* Turquesa Oscuro #59bfb8 */
+/* Amarillo Oscuro #bfac59 */
+
+
+/**
+/* ====================
+/* Variables de Fonts
+/* ====================
+*/
+/* Escrita a mano*/ 
+$Indie: 'Indie Flower', cursive;
+
+/*Sans-serif*/
+$Quattro: 'Open Sans', sans-serif;
